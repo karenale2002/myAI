@@ -60,7 +60,6 @@ export default function ChatInput({
               />
               <Button
                 type="submit"
-{/*                 className="rounded-full w-10 h-10 p-0 flex items-center justify-center" */}
                 className="bg-blue-500 hover:bg-blue-600 text-white rounded-full w-10 h-10 p-0 flex items-center justify-center"
                 disabled={input.trim() === "" || isLoading}
               >
