@@ -30,7 +30,7 @@ export default function ChatInput({
 
   return (
     <>
-      <div className="z-10 flex flex-col justify-center items-center fixed bottom-0 w-full p-5 bg-white shadow-[0_-10px_15px_-2px_rgba(255,255,255,1)] text-base">
+      <div className="z-10 flex flex-col justify-center items-center fixed bottom-0 w-full p-5 bg-pink-100 text-white shadow-lg">
         <div className="max-w-screen-lg w-full">
           <Form {...form}>
             <form
@@ -61,7 +61,7 @@ export default function ChatInput({
               />
               <Button
                 type="submit"
-                className="bg-blue-500 hover:bg-pink-600 text-white rounded-full w-10 h-10 p-0 flex items-center justify-center"
+                className="bg-pink-500 hover:bg-pink-600 text-white rounded-full w-10 h-10 p-0 flex items-center justify-center"
                 disabled={input.trim() === "" || isLoading}
               >
                 <ArrowUp className="w-5 h-5" />
