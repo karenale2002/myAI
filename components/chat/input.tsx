@@ -52,7 +52,7 @@ export default function ChatInput({
                         className="border-none focus-visible:ring-0 focus-visible:ring-offset-0 bg-transparent"
                         onFocus={() => setIsFocused(true)}
                         onBlur={() => setIsFocused(false)}
-                        placeholder="Type your message here..."
+                        placeholder="Ask me anything"
                       />
                     </FormControl>
                   </FormItem>
@@ -60,7 +60,8 @@ export default function ChatInput({
               />
               <Button
                 type="submit"
-                className="rounded-full w-10 h-10 p-0 flex items-center justify-center"
+{/*                 className="rounded-full w-10 h-10 p-0 flex items-center justify-center" */}
+                className="bg-transparent border border-blue-500 hover:bg-blue-500 text-blue-500 hover:text-white rounded-full w-10 h-10 p-0 flex items-center justify-center"
                 disabled={input.trim() === "" || isLoading}
               >
                 <ArrowUp className="w-5 h-5" />
