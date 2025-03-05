@@ -36,7 +36,8 @@ export default function ChatInput({
             <form
               onSubmit={handleSubmit}
               className={`flex-0 flex w-full p-1 border rounded-full shadow-sm ${
-                isFocused ? "ring-2 ring-ring ring-offset-2" : ""
+                isFocused ? "ring-2 ring-pink-500 ring-offset-2 shadow-lg" : ""
+
               }`}
             >
               <FormField
