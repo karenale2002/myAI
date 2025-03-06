@@ -3,7 +3,7 @@ import { NetworkIcon, LinkedinIcon, MailIcon, SearchIcon, UsersIcon } from "luci
 
 export default function MentorSidebar() {
   return (
-    <div className="fixed left-0 top-16 h-full w-48 bg-gray-100 p-4 shadow-md flex flex-col gap-4">
+    <div className="fixed left-0 top-20 h-full w-48 bg-gray-100 p-4 shadow-md flex flex-col gap-4">
       <h2 className="text-lg font-semibold text-gray-700 mb-2">Find a Mentor</h2>
       
         <Button
