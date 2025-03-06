@@ -4,6 +4,7 @@ import { PAGE_TITLE, PAGE_DESCRIPTION } from "@/configuration/ui";
 import "./globals.css";
 import { ErrorWrapper } from "./parts/error/error-wrapper";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import MentorSidebar from "@/components/chat/links"; // ✅ Import Sidebar
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +34,12 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <ErrorWrapper>{children}</ErrorWrapper>
+          <div className="flex">
+            <MentorSidebar /> {/* ✅ Add sidebar here */}
+            <div className="flex-1">
+              <ErrorWrapper>{children}</ErrorWrapper>
+            </div>
+          </div>
         </body>
       </TooltipProvider>
     </html>
