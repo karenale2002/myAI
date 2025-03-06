@@ -5,8 +5,8 @@ export default function MentorSidebar() {
   return (
     <div className="fixed left-0 top-0 h-full w-48 bg-gray-100 p-4 shadow-md flex flex-col gap-4">
       <h2 className="text-lg font-semibold text-gray-700 mb-2">Find a Mentor</h2>
+      
       <div className="mt-10 flex flex-col gap-4"> {/* Moves buttons down slightly */}
-
         <Button
           asChild
           className="flex items-center gap-2 text-left justify-start bg-blue-500 text-white hover:bg-blue-600"
