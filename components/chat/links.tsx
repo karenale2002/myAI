@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 export default function MentorSidebar() {
   return (
     <div className="fixed left-0 top-0 h-full w-48 bg-gray-100 p-4 shadow-md">
