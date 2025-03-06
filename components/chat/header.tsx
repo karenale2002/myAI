@@ -22,7 +22,7 @@ export default function ChatHeader({
         <div className="flex-0 w-[100px]"></div>
         <div className="flex-1 flex justify-center items-center gap-2">
           <AILogo />
-          <p className="text-2xl font-bold text-pink-500 font-serif tracking-wide">{CHAT_HEADER}</p>
+          <p className="text-2xl font-bold text-pink-500 tracking-wide">{CHAT_HEADER}</p>
         </div>
         <div className="flex-0 w-[100px] flex justify-end items-center">
           <Button
